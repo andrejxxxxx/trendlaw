@@ -86,7 +86,7 @@ writeLog('NEW USER CLIKC. PIXEL: ' . $pxCookie . ' CLICK ID: ' . $fbclid);
 
    <link rel="stylesheet" href="libs/intlTelInput.css">
    <link rel="stylesheet" href="css/styles_p2e7af7fc95.css" type="text/css">
-   <link rel="stylesheet" href="cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
    <link href="css/validation.css" rel="stylesheet">
    <!-- <link rel="stylesheet" href="css/grata-style.min.css?v=0.0.2"> -->
    <link rel="stylesheet" href="css/custom.css">
