@@ -373,7 +373,6 @@ writeLog('NEW USER CLIKC. PIXEL: ' . $pxCookie . ' CLICK ID: ' . $fbclid);
                         </div>
                     </div>
                     <div class="reviews-pagination"></div>
-                    <span class="swiper-notification"></span>
                 </div>
             </div>
             <div class="stages-work-block" id="stages">
