@@ -561,9 +561,10 @@ writeLog('NEW USER CLIKC. PIXEL: ' . $pxCookie . ' CLICK ID: ' . $fbclid);
     <div class="footer-container">
         <div class="wrapper">
             <div class="footer-block" id="contacts">
-                <div class="footer-block-left"> <span class="footer-block-left-title">Контакты</span>
+                <div class="footer-block-left"> 
+                     <span class="footer-block-left-title">Контакты</span>
                     <div class="footer-block-left-address"> <img src="images/logo.svg" alt="logo"> <span class="footer-block-left-address-text"> Law firm TrendLaw <br> <span class="address-text-thin"> Oldenzaalsestraat 212, 7557GC Hengelo, Netherlands </span>
-                        </span> </div> <a href="tel:+31616479336" target="_blank" class="footer-block-left-phone-number">+31616479336</a>
+                        </span> </div> 
                     <div class="footer-block-left-messenger"> <a href="t.me/test.html" target="_blank" class="footer-block-left-messenger-button"><img src="images/telegram-icon.svg" alt="logo">Telegram</a> <a href="wa.me/+31616479336.html" target="_blank" class="footer-block-left-messenger-button"><img src="images/whatsapp.svg" alt="logo">WhatsApp</a> </div> <span class="footer-block-left-mail">support@trendlawyers.info</span>
                     <div class="privacy-policy-block"> <a href="#" onclick="document.location.hash='';return false;" class="privacy-policy-text">Пользовательское соглашение</a> <a href="#" onclick="document.location.hash='';return false;" class="privacy-policy-text">Политика конфиденциальности</a> </div>
                     <div class="footer-block-left-bottom"> <img src="images/img.svg"> <span class="footer-block-left-bottom-text">TrendLaw, 2025</span> </div>
