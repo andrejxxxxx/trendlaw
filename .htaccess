@@ -1,0 +1,21 @@
+# Convert PHP file to a URL path
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [NC,L]
+
+
+# Deny access to form-data via URL
+<FilesMatch "^(form-data\.json|form-data\.xlsx)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+<FilesMatch "^log\.txt$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+
+# Redirect from 404 to the home page
+ErrorDocument 404 /index.php

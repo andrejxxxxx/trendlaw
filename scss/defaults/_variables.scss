@@ -1,0 +1,63 @@
+/* 
+
+Color calculator - http://razorjam.github.io/sasscolourfunctioncalculator/
+Color names - http://name-of-color.com/
+
+==============================================
+    CONTENT OF THE FILE
+==============================================
+
+    1. Fonts
+    2. Variables
+
+*/
+
+
+
+
+
+/* 
+* 1. Fonts
+*/
+
+@font-face {
+    font-family: 'TildaSans';
+    src: url('../fonts/TildaSans-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TildaSans';
+    src: url('../fonts/TildaSans-Semibold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TildaSans';
+    src: url('../fonts/TildaSans-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TildaSans';
+    src: url('../fonts/TildaSans-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+/* 
+* 2. Variables
+*/
+:root {
+    --transition: all .25s ease-in-out;
+}

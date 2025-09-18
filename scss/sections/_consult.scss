@@ -1,0 +1,82 @@
+.grata-consult {
+   padding-top: 100px;
+   padding-bottom: 150px;
+
+   @media only screen and (max-width: 992px) {
+      padding-bottom: 100px;
+   }
+
+   .data-wrapper {
+      display: flex;
+      justify-content: space-between;
+      gap: 138px;
+
+      @media only screen and (max-width: 992px) {
+         gap: 40px;
+      }
+
+      @media only screen and (max-width: 840px) {
+         flex-direction: column;
+      }
+   }
+
+   .data-image-wrapper {
+      max-width: 560px;
+
+      @media only screen and (max-width: 840px) {
+         margin: auto;
+         text-align: center;
+      }
+   }
+
+   .data-image {
+      margin-bottom: 20px;
+
+      img {
+         width: 100%;
+      }
+   }
+
+   .data-image-description {
+      font-size: 15px;
+      line-height: 1.55;
+      font-weight: 300;
+
+      p {
+         margin: 0;
+      }
+   }
+
+   .data-content {
+      max-width: 460px;
+
+      @media only screen and (max-width: 840px) {
+         margin: auto;
+      }
+
+      .data-title {
+         font-size: 20px;
+         line-height: 1.55;
+         margin-top: 0;
+         margin-bottom: 0;
+
+         @media only screen and (max-width: 840px) {
+            text-align: center;
+         }
+
+         span {
+            font-size: 22px;
+         }
+      }
+
+      .data-subtitle {
+         margin-bottom: 20px;
+         font-weight: 700;
+         line-height: 1.55;
+
+         @media only screen and (max-width: 840px) {
+            text-align: center;
+         }
+      }
+   }
+}
