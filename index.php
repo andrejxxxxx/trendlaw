@@ -613,9 +613,10 @@ writeLog('NEW USER CLIKC. PIXEL: ' . $pxCookie . ' CLICK ID: ' . $fbclid);
 
    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-   <script src="libs/intlTelInput.min.js"></script>
-   <script src="js/grata-form-script.js?v=0.0.2"></script>
-   <script src="js/grata-script.js?v=0.0.2"></script>
+   <script type="text/javascript" src="libs/intlTelInput.min.js"></script>
+   <script type="text/javascript" src="js/scripts_clean.js"></script>
+   <script type="text/javascript" src="js/grata-form-script.js?v=0.0.2"></script>
+   <script type="text/javascript" src="js/grata-script.js?v=0.0.2"></script>
     
 
    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
