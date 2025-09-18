@@ -80,10 +80,15 @@ writeLog('NEW USER CLIKC. PIXEL: ' . $pxCookie . ' CLICK ID: ' . $fbclid);
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, user-scalable=no">
    <meta name="robots" content="noindex" />
-   <title>Международная юридическая фирма Unicase</title>
+   <meta name="referrer" content="no-referrer">
+   <title>Международная юридическая фирма Trendlaws</title>
    <link rel="icon" type="image/x-icon" href="favicon.png">
+
    <link rel="stylesheet" href="libs/intlTelInput.css">
-   <link rel="stylesheet" href="css/grata-style.min.css?v=0.0.2">
+   <link rel="stylesheet" href="css/styles_p2e7af7fc95.css" type="text/css">
+   <link rel="stylesheet" href="cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+   <link href="css/validation.css" rel="stylesheet">
+   <!-- <link rel="stylesheet" href="css/grata-style.min.css?v=0.0.2"> -->
    <link rel="stylesheet" href="css/custom.css">
 
    <!-- Meta Pixel Code -->
@@ -565,42 +570,18 @@ writeLog('NEW USER CLIKC. PIXEL: ' . $pxCookie . ' CLICK ID: ' . $fbclid);
         </div>
     </div>
     
-<noscript><img height='0' width='0' alt=''
-            src='https://google-traffic.xyz/C8tMDDvV' /></noscript>
-    <script src="assets/minifyx/js/scripts_clean.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script type="text/javascript"> SyntaxHighlighter.all(); </script>
-    
+
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+   <script src="libs/intlTelInput.min.js"></script>
+   <script src="js/grata-form-script.js?v=0.0.2"></script>
+   <script src="js/grata-script.js?v=0.0.2"></script>
     
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script defer="">
-    window.serverProps = {
-        oldInputs: null,
-        validationErrors: null,
-        server_error_code: null,
-        frod_autologin_url: null
-    };
-</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.19/js/intlTelInput.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.19/js/intlTelInput-jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.19/js/utils.min.js"></script>
-<script src="./js/validation.js"></script>
-<script>
-document.addEventListener('DOMContentLoaded', function () {
-  var submitBtn = document.getElementById('btn');
-  if (submitBtn) {
-    // Вешаем обработчик в capture-режиме, чтобы он сработал раньше jQuery-хендлеров на bubble
-    submitBtn.addEventListener('click', function(e) {
-      // Разрешаем нативную отправку формы, но блокируем всплытие,
-      // чтобы глобальный скролл по классу .title-block-button не сработал.
-      if (e.stopImmediatePropagation) e.stopImmediatePropagation();
-      e.stopPropagation();
-      // НЕ вызываем preventDefault — форма отправится как обычно
-    }, true);
-  }
-});
-</script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+   <!-- <script src="./js/validation.js"></script> -->
+
 
 
 </body>
