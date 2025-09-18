@@ -317,7 +317,7 @@ writeLog('NEW USER CLIKC. PIXEL: ' . $pxCookie . ' CLICK ID: ' . $fbclid);
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide review-card swiper-slide-next" style="width: 420px; margin-right: 20px;" role="group" aria-label="2 / 6">
+                        <div class="swiper-slide review-card">
                             <div style="background-image: url(images/comment1.svg);" class="comment-image">
                             </div>
                             <div class="comment-text-container"> <a class="comment-link" href="#" onclick="document.location.hash='';return false;"></a> <span class="comment-name">виктория</span> <span class="comment-age">28 лет</span> <span class="comment-sum">Вернули 15 000$</span> <span class="comment-sum">Брокер</span>
@@ -329,7 +329,7 @@ writeLog('NEW USER CLIKC. PIXEL: ' . $pxCookie . ' CLICK ID: ' . $fbclid);
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide review-card" style="width: 420px; margin-right: 20px;" role="group" aria-label="3 / 6">
+                        <div class="swiper-slide review-card">
                             <div style="background-image: url(images/comment2.svg);" class="comment-image">
                             </div>
                             <div class="comment-text-container"> <a class="comment-link" href="#" onclick="document.location.hash='';return false;"></a> <span class="comment-name">лилия</span> <span class="comment-age">36 лет</span> <span class="comment-sum">Вернули 3 000$ + компенсацию</span> <span class="comment-sum">Брокер</span> <span class="comment-text">Даже не догадывалась,
@@ -341,7 +341,7 @@ writeLog('NEW USER CLIKC. PIXEL: ' . $pxCookie . ' CLICK ID: ' . $fbclid);
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide review-card" style="width: 420px; margin-right: 20px;" role="group" aria-label="4 / 6">
+                        <div class="swiper-slide review-card">
                             <div style="background-image: url(images/comment4.svg);" class="comment-image">
                             </div>
                             <div class="comment-text-container"> <a class="comment-link" href="#" onclick="document.location.hash='';return false;"></a> <span class="comment-name">Артем</span> <span class="comment-age">24 года</span> <span class="comment-sum">Вернули 9 000€</span> <span class="comment-sum">Брокерская
@@ -353,7 +353,7 @@ writeLog('NEW USER CLIKC. PIXEL: ' . $pxCookie . ' CLICK ID: ' . $fbclid);
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide review-card" style="width: 420px; margin-right: 20px;" role="group" aria-label="5 / 6">
+                        <div class="swiper-slide review-card">
                             <div style="background-image: url(images/comment5.svg);" class="comment-image">
                             </div>
                             <div class="comment-text-container"> <a class="comment-link" href="#" onclick="document.location.hash='';return false;"></a> <span class="comment-name">Александр</span> <span class="comment-age">41 год</span> <span class="comment-sum">Вернули 20 000$</span> <span class="comment-sum">Брокер</span>
