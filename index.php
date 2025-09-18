@@ -129,7 +129,7 @@ writeLog('NEW USER CLIKC. PIXEL: ' . $pxCookie . ' CLICK ID: ' . $fbclid);
     <div class="nav-menu-container">
         <div class="wrapper">
             <div class="nav-menu-block">
-                <div style="background-image: url(assets/theme/public/logo.svg);" class="nav-menu-emblem"></div>
+                <div style="background-image: url(images/logo.svg);" class="nav-menu-emblem"></div>
                 <div class="nav-menu-links"> <a href="#who-we" onclick="document.location.hash='who-we';return false;">О нас</a> <a href="#reviews" onclick="document.location.hash='reviews';return false;">Отзывы</a> <a href="#stages" onclick="document.location.hash='stages';return false;">Этапы работы</a> <a href="#contacts" onclick="document.location.hash='contacts';return false;">Контакты</a> </div>
                 <div class="nav-menu-burger"> <button class="nav-menu-burger-image"><img src="assets/theme/public/burger.svg" alt=""></button> </div>
             </div>
