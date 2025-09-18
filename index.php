@@ -381,9 +381,9 @@ writeLog('NEW USER CLIKC. PIXEL: ' . $pxCookie . ' CLICK ID: ' . $fbclid);
                         работы</span>
                     <div class="reviews-block-right-line"></div>
                 </div>
-                <div class="swiper reviews-swiper swiper-initialized swiper-horizontal swiper-backface-hidden">
-                    <div class="swiper-wrapper" id="swiper-wrapper-0a8886010a8d62e9f" aria-live="polite">
-                        <div class="swiper-slide review-card swiper-slide-active" style="width: 420px; margin-right: 20px;" role="group" aria-label="1 / 4">
+                <div class="swiper reviews-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide review-card">
                             <div style="background-image: url(images/step1.svg);" class="stages4-of-work-image">
                                 <div class="stages-of-work-step">01</div>
                             </div>
@@ -392,7 +392,7 @@ writeLog('NEW USER CLIKC. PIXEL: ' . $pxCookie . ' CLICK ID: ' . $fbclid);
                                     вами свяжется наш специалист для предварительной оценки вашей ситуации. Сверяем ваше
                                     дело с уже имеющимся в нашем рабочем кейсе.</span> </div>
                         </div>
-                        <div class="swiper-slide review-card swiper-slide-next" style="width: 420px; margin-right: 20px;" role="group" aria-label="2 / 4">
+                        <div class="swiper-slide review-card">
                             <div style="background-image: url(images/step2.svg);" class="stages4-of-work-image">
                                 <div class="stages-of-work-step">02</div>
                             </div>
@@ -402,7 +402,7 @@ writeLog('NEW USER CLIKC. PIXEL: ' . $pxCookie . ' CLICK ID: ' . $fbclid);
                                     Вашего дела на юриста который уже имел опыт работы конкретно с этим брокером.</span>
                             </div>
                         </div>
-                        <div class="swiper-slide review-card" style="width: 420px; margin-right: 20px;" role="group" aria-label="3 / 4">
+                        <div class="swiper-slide review-card">
                             <div style="background-image: url(images/step3.svg);" class="stages4-of-work-image">
                                 <div class="stages-of-work-step">03</div>
                             </div>
@@ -411,7 +411,7 @@ writeLog('NEW USER CLIKC. PIXEL: ' . $pxCookie . ' CLICK ID: ' . $fbclid);
                                     брокерскую компанию. Оформление документов и запуск процесса по возврату денег с
                                     задействованием всевозможных инструментов и инстанций.</span> </div>
                         </div>
-                        <div class="swiper-slide review-card" role="group" aria-label="4 / 4" style="width: 420px; margin-right: 20px;">
+                        <div class="swiper-slide review-card">
                             <div style="background-image: url(images/step4.svg);" class="stages4-of-work-image">
                                 <div class="stages-of-work-step">04</div>
                             </div>
@@ -421,8 +421,8 @@ writeLog('NEW USER CLIKC. PIXEL: ' . $pxCookie . ' CLICK ID: ' . $fbclid);
                             </div>
                         </div>
                     </div>
-                    <div class="reviews-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal"><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 1" aria-current="true"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span></div>
-                <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+                    <div class="reviews-pagination"></div>
+                 </div>
             </div>
         </div>
     </div>
