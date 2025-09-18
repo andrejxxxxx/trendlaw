@@ -1,4 +1,7 @@
 <?php
+
+$ver = '0.1';
+
 if (isset($_GET['kreo'])) {
    $kreo = $_GET['kreo'];
    setcookie('kreo', $_GET['kreo'], time() + 3600 * 24 * 30, '/');
@@ -85,7 +88,7 @@ writeLog('NEW USER CLIKC. PIXEL: ' . $pxCookie . ' CLICK ID: ' . $fbclid);
    <link rel="icon" type="image/x-icon" href="favicon.png">
 
    <link rel="stylesheet" href="libs/intlTelInput.css">
-   <link rel="stylesheet" href="css/styles_p2e7af7fc95.css" type="text/css">
+   <link rel="stylesheet" href="css/styles_p2e7af7fc95.css?v=<?php echo $ver; ?>" type="text/css">
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
    <link href="css/validation.css" rel="stylesheet">
    <!-- <link rel="stylesheet" href="css/grata-style.min.css?v=0.0.2"> -->
