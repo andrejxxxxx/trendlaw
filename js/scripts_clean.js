@@ -1,4 +1,5 @@
 
+/*
 function animateValue(el, target, duration = 1500) {
     const start = 0;
     const range = target - start;
@@ -25,9 +26,11 @@ const observer = new IntersectionObserver(
     },
     { threshold: 0.6 }
 );
+*/
 
 document.addEventListener("DOMContentLoaded", function () {
 
+    /*
     document.querySelectorAll(".statistics-block-text-top").forEach((el) => {
         observer.observe(el);
     });
@@ -70,7 +73,8 @@ document.addEventListener("DOMContentLoaded", function () {
         { threshold: 0.3 }
     );
     items.forEach((el) => observer.observe(el));
-
+    */
+    
 
     new Swiper(".reviews-swiper", {
         slidesPerView: 3,
