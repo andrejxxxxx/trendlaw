@@ -131,7 +131,7 @@ writeLog('NEW USER CLIKC. PIXEL: ' . $pxCookie . ' CLICK ID: ' . $fbclid);
             <div class="nav-menu-block">
                 <div style="background-image: url(images/logo.svg);" class="nav-menu-emblem"></div>
                 <div class="nav-menu-links"> <a href="#who-we" onclick="document.location.hash='who-we';return false;">О нас</a> <a href="#reviews" onclick="document.location.hash='reviews';return false;">Отзывы</a> <a href="#stages" onclick="document.location.hash='stages';return false;">Этапы работы</a> <a href="#contacts" onclick="document.location.hash='contacts';return false;">Контакты</a> </div>
-                <div class="nav-menu-burger"> <button class="nav-menu-burger-image"><img src="assets/theme/public/burger.svg" alt=""></button> </div>
+                <div class="nav-menu-burger"> <button class="nav-menu-burger-image"><img src="images/burger.svg" alt=""></button> </div>
             </div>
         </div>
     </div>
@@ -139,15 +139,15 @@ writeLog('NEW USER CLIKC. PIXEL: ' . $pxCookie . ' CLICK ID: ' . $fbclid);
         <div class="wrapper">
             <div class="title-block"> <span class="title-top">Ваши деньги украли или заблокировали?</span> <span class="title-top-description">Вернём их за 14 дней – законно и безопасно!</span>
                 <div class="emblem-container">
-                    <div class="emblem-block"> <img src="assets/theme/public/emblem.svg" alt="emblem"> <span class="emblem-block-text">Официальный договор. <span class="emblem-block-text current">Оплата только за результат – никаких рисков для
+                    <div class="emblem-block"> <img src="images/emblem.svg" alt="emblem"> <span class="emblem-block-text">Официальный договор. <span class="emblem-block-text current">Оплата только за результат – никаких рисков для
                                 вас!</span></span> </div>
-                    <div class="emblem-block "> <img src="assets/theme/public/emblem.svg" alt="emblem"> <span class="emblem-block-text">Работаем с банками, <span class="emblem-block-text current">регуляторами и платежными системами по всему
+                    <div class="emblem-block "> <img src="images/emblem.svg" alt="emblem"> <span class="emblem-block-text">Работаем с банками, <span class="emblem-block-text current">регуляторами и платежными системами по всему
                                 миру.</span></span> </div>
                 </div> <button class="title-block-button">Оставить заявку</button> <span class="emblem-block-text-bottom">Оставьте заявку – наш юрист расскажет как вернуть деньги!</span>
             </div>
         </div>
     </div>
-    <div class="statistics-container"> <img src="assets/theme/public/statistics-background.svg" alt="" class="statistics-container-image"> <img src="assets/theme/public/lawyer.svg" alt="" class="lawyer-image">
+    <div class="statistics-container"> <img src="images/statistics-background.svg" alt="" class="statistics-container-image"> <img src="images/lawyer.svg" alt="" class="lawyer-image">
         <div class="wrapper">
             <div class="statistics-block">
                 <div class="statistics-block-text"> <span class="statistics-block-text-top" data-target="270">270</span>
@@ -155,9 +155,9 @@ writeLog('NEW USER CLIKC. PIXEL: ' . $pxCookie . ' CLICK ID: ' . $fbclid);
                 <div class="statistics-block-text"> <span class="statistics-block-text-top" data-target="49">49</span>
                     <span class="statistics-block-text-center">закрытых</span> <span class="statistics-block-text-bottom">мошеннических компаний</span> </div>
             </div>
-            <div class="statistics-title"> <img src="assets/theme/public/emblem.svg" alt="emblem">
-                <div class="statistics-title-center"> <img src="assets/theme/public/line.svg" alt="emblem" class="line">
-                    <span class="statistics-title-center-text">Юристы</span> <img src="assets/theme/public/line.svg" alt="emblem" class="line"> </div> <span class="statistics-title-bottom">Которые возвращают
+            <div class="statistics-title"> <img src="images/emblem.svg" alt="emblem">
+                <div class="statistics-title-center"> <img src="images/line.svg" alt="emblem" class="line">
+                    <span class="statistics-title-center-text">Юристы</span> <img src="images/line.svg" alt="emblem" class="line"> </div> <span class="statistics-title-bottom">Которые возвращают
                     деньги!</span>
             </div>
             <div class="who-we-block" id="who-we">
@@ -174,8 +174,8 @@ writeLog('NEW USER CLIKC. PIXEL: ' . $pxCookie . ' CLICK ID: ' . $fbclid);
                             кейсе</span> </div>
                 </div>
             </div>
-            <div class="chief-lawyer-block"> <img src="assets/theme/public/chief-lawyer.svg" alt="chief-lawyer">
-                <div class="chief-lawyer-block-right"> <img src="assets/theme/public/comment.svg" alt="chief-lawyer">
+            <div class="chief-lawyer-block"> <img src="images/chief-lawyer.svg" alt="chief-lawyer">
+                <div class="chief-lawyer-block-right"> <img src="images/comment.svg" alt="chief-lawyer">
                     <span class="chief-lawyer-title">За 5 лет я помог сотням людей вернуть их деньги и добиться
                         справедливости.</span> <span class="chief-lawyer-description">Мы закрыли 49 мошеннических
                         компаний и вернули <span class="underline">270 000 000 €</span> их законным владельцам.</span>
@@ -183,44 +183,44 @@ writeLog('NEW USER CLIKC. PIXEL: ' . $pxCookie . ' CLICK ID: ' . $fbclid);
                 <div class="chief-lawyer-name"> <span class="chief-lawyer-name-top">Darius Keglic</span> <span class="chief-lawyer-name-center">Главный юрист TrendLaw</span> <span class="chief-lawyer-name-bottom">19 лет <span class="practice">юридической
                             практики</span></span> </div>
             </div>
-            <div class="statistics-title"> <img src="assets/theme/public/emblem.svg" alt="emblem">
-                <div class="statistics-title-center"> <img src="assets/theme/public/line.svg" alt="emblem" class="line">
-                    <span class="statistics-title-center-text">Украли деньги?</span> <img src="assets/theme/public/line.svg" alt="emblem" class="line"> </div> <span class="statistics-title-bottom">Ты не один – тебя просто провели по классической схеме!</span>
+            <div class="statistics-title"> <img src="images/emblem.svg" alt="emblem">
+                <div class="statistics-title-center"> <img src="images/line.svg" alt="emblem" class="line">
+                    <span class="statistics-title-center-text">Украли деньги?</span> <img src="images/line.svg" alt="emblem" class="line"> </div> <span class="statistics-title-bottom">Ты не один – тебя просто провели по классической схеме!</span>
             </div>
             <div class="fraud-schemes-block">
                 <div class="fraud-card">
                     <div class="fraud-card-number"><span>1</span></div> <span class="fraud-card-title">Ваш брокер – это
                         казино</span> <span class="fraud-card-description">Ты пополнил счёт, трейдил, даже видел
                         “прибыль”, но вывести деньги невозможно?</span> <span class="fraud-card-description-bottom">Поздравляем, ты просто смотрел красивые цифры.</span>
-                    <button class="button-back-money">вернуть деньги <img src="assets/theme/public/arrow.svg" alt="arrow"></button>
+                    <button class="button-back-money">вернуть деньги <img src="images/arrow.svg" alt="arrow"></button>
                 </div>
                 <div class="fraud-card">
                     <div class="fraud-card-number"><span>2</span></div> <span class="fraud-card-title">криптообменник-призрак</span> <span class="fraud-card-description">Перевёл деньги за крипту, но монеты так и не пришли?</span> <span class="fraud-card-description-bottom">Поддержка морозится, сайт пропал, а ты остался без
-                        денег.</span> <button class="button-back-money">вернуть деньги <img src="assets/theme/public/arrow.svg" alt="arrow"></button>
+                        денег.</span> <button class="button-back-money">вернуть деньги <img src="images/arrow.svg" alt="arrow"></button>
                 </div>
                 <div class="fraud-card">
                     <div class="fraud-card-number"><span>3</span></div> <span class="fraud-card-title">Бинарные опционы
                         и псевдотрейдинг</span> <span class="fraud-card-description">На балансе растёт сумма, а когда
                         хочешь вывести – требуют ещё денег,</span> <span class="fraud-card-description-bottom">блокируют
-                        аккаунт или придумывают "проблемы с верификацией".</span> <button class="button-back-money">вернуть деньги <img src="assets/theme/public/arrow.svg" alt="arrow"></button>
+                        аккаунт или придумывают "проблемы с верификацией".</span> <button class="button-back-money">вернуть деньги <img src="images/arrow.svg" alt="arrow"></button>
                 </div>
                 <div class="fraud-card">
                     <div class="fraud-card-number"><span>4</span></div> <span class="fraud-card-title">Служба
                         безопасности банка</span> <span class="fraud-card-description">Тебе позвонили “из банка” и
                         сказали, что с карты пытаются снять деньги?</span> <span class="fraud-card-description-bottom">А
                         потом ты сам перевёл всё "на безопасный счёт"…</span> <button class="button-back-money">вернуть
-                        деньги <img src="assets/theme/public/arrow.svg" alt="arrow"></button>
+                        деньги <img src="images/arrow.svg" alt="arrow"></button>
                 </div>
                 <div class="fraud-card">
                     <div class="fraud-card-number"><span>5</span></div> <span class="fraud-card-title">Инвестируй в хайп
                         и стань миллионером</span> <span class="fraud-card-description">Тебе пообещали пассивный доход,
                         акции, IPO или майнинг?</span> <span class="fraud-card-description-bottom">А потом просто вывели
-                        бабки, закрыли сайт и всё.</span> <button class="button-back-money">вернуть деньги <img src="assets/theme/public/arrow.svg" alt="arrow"></button>
+                        бабки, закрыли сайт и всё.</span> <button class="button-back-money">вернуть деньги <img src="images/arrow.svg" alt="arrow"></button>
                 </div>
                 <div class="fraud-card">
                     <div class="fraud-card-number"><span>6</span></div> <span class="fraud-card-title">Вложи сейчас –
                         получи x10 уже завтра</span> <span class="fraud-card-description">Чем круче обещания, тем
-                        быстрее исчезает схема. Если ты купился – ты не один.</span> <span class="fraud-card-description-bottom">Но деньги ещё можно вернуть!</span> <button class="button-back-money">вернуть деньги <img src="assets/theme/public/arrow.svg" alt="arrow"></button>
+                        быстрее исчезает схема. Если ты купился – ты не один.</span> <span class="fraud-card-description-bottom">Но деньги ещё можно вернуть!</span> <button class="button-back-money">вернуть деньги <img src="images/arrow.svg" alt="arrow"></button>
                 </div>
             </div>
         </div>
@@ -229,7 +229,7 @@ writeLog('NEW USER CLIKC. PIXEL: ' . $pxCookie . ' CLICK ID: ' . $fbclid);
         <div class="wrapper">
             <div class="leave-request-block">
                 <div class="leave-request-logo"></div> <span class="leave-request-title">Мы работаем по всем
-                    направлениям и с любым уровнем сложности!</span> <img src="assets/theme/public/line.svg" alt="line">
+                    направлениям и с любым уровнем сложности!</span> <img src="images/line.svg" alt="line">
                 <span class="leave-request-description">Оставляй заявку – мы разберем твой кейс и запустим процесс
                     возврата! </span> <button class="who-we-block-left-button">Оставить заявку</button>
             </div>
@@ -238,8 +238,8 @@ writeLog('NEW USER CLIKC. PIXEL: ' . $pxCookie . ' CLICK ID: ' . $fbclid);
     <div class="step-by-step-container">
         <div class="wrapper">
             <div class="step-by-step-block">
-                <div class="statistics-title"> <img src="assets/theme/public/emblem.svg" alt="emblem">
-                    <div class="statistics-title-center"> <img src="assets/theme/public/line.svg" alt="emblem" class="line"> <span class="statistics-title-center-text">Как мы работаем</span> <img src="assets/theme/public/line.svg" alt="emblem" class="line"> </div> <span class="statistics-title-bottom">Пошаговый процесс</span>
+                <div class="statistics-title"> <img src="images/emblem.svg" alt="emblem">
+                    <div class="statistics-title-center"> <img src="images/line.svg" alt="emblem" class="line"> <span class="statistics-title-center-text">Как мы работаем</span> <img src="images/line.svg" alt="emblem" class="line"> </div> <span class="statistics-title-bottom">Пошаговый процесс</span>
                 </div>
                 <div class="step-by-step-row">
                     <div class="step-by-step-element visible"> <span class="step-top">01</span> <span class="step-center">Бесплатная консультация</span> <span class="step-bottom">разбор кейса за
@@ -267,20 +267,20 @@ writeLog('NEW USER CLIKC. PIXEL: ' . $pxCookie . ' CLICK ID: ' . $fbclid);
                 <div class="statistics-title profit-block-title"> <svg width="54" height="48" viewBox="0 0 54 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path opacity="0.6" d="M47.6483 5.05798e-06H6.35167C5.51726 -0.00104504 4.69084 0.161423 3.91974 0.478106C3.14865 0.794788 2.44803 1.25946 1.85801 1.84551C1.26799 2.43156 0.80016 3.12747 0.481334 3.89338C0.162508 4.65929 -0.00105211 5.48015 5.09248e-06 6.30895V6.76423C0.00157701 8.43699 0.671281 10.0408 1.86211 11.2236C3.05293 12.4064 4.66759 13.0716 6.35167 13.0732C8.03575 13.0716 9.65037 12.4064 10.8412 11.2236C12.032 10.0408 12.7017 8.43699 12.7033 6.76423V6.20054H9.32014V6.76423C9.31107 7.54144 8.99469 8.28396 8.43931 8.83152C7.88393 9.37909 7.13406 9.68781 6.35153 9.69106C5.57131 9.68696 4.82423 9.37729 4.27251 8.82929C3.7208 8.28129 3.40903 7.53921 3.40491 6.76423V6.30895C3.40903 5.53397 3.7208 4.79189 4.27251 4.24389C4.82423 3.69589 5.57131 3.38621 6.35153 3.38212H14.7769V41.7127L27.0436 48L39.2449 41.7344V3.38212H47.6483C48.4308 3.38539 49.1807 3.69412 49.736 4.24168C50.2914 4.78925 50.6077 5.53175 50.6168 6.30895V6.76423C50.6077 7.54143 50.2914 8.28392 49.736 8.83149C49.1807 9.37906 48.4308 9.68779 47.6483 9.69106C46.8681 9.68694 46.121 9.37725 45.5693 8.82926C45.0176 8.28126 44.7058 7.5392 44.7017 6.76423V6.20054H41.2967V6.76423C41.2983 8.43698 41.9679 10.0408 43.1588 11.2236C44.3496 12.4064 45.9643 13.0716 47.6483 13.0732C49.3324 13.0716 50.9471 12.4064 52.1379 11.2236C53.3287 10.0408 53.9984 8.43699 54 6.76423V6.30895C54.001 5.48015 53.8375 4.65929 53.5186 3.89338C53.1998 3.12747 52.732 2.43156 52.142 1.84552C51.552 1.25947 50.8513 0.794793 50.0803 0.47811C49.3092 0.161427 48.4827 -0.00104218 47.6483 5.05798e-06ZM21.2377 41.2358L18.1164 39.6313V3.4255H21.2377V41.2358ZM29.3136 42.9485L26.9782 44.1843L24.6427 42.9485V3.42548H29.3136V42.9485ZM35.8399 39.6314L32.7187 41.2359V3.42559H35.8399V39.6314Z" fill="#F2F2EF"></path>
                     </svg>
-                    <div class="statistics-title-center"> <img src="assets/theme/public/line.svg" alt="emblem" class="line"> <span class="statistics-title-center-text statistics-title-center-text-white">
-                            Выгоды </span> <img src="assets/theme/public/line.svg" alt="emblem" class="line"> </div>
+                    <div class="statistics-title-center"> <img src="images/line.svg" alt="emblem" class="line"> <span class="statistics-title-center-text statistics-title-center-text-white">
+                            Выгоды </span> <img src="images/line.svg" alt="emblem" class="line"> </div>
                     <span class="statistics-title-bottom statistics-title-bottom-white">Почему клиенты доверяют
                         нам?</span>
                 </div>
-                <div class="profit-list-item visible"> <img src="assets/theme/public/check-circle.svg" alt="check-circle"> <span class="profit-list-item-text">Юридическая прозрачность (официальный договор)</span> </div>
+                <div class="profit-list-item visible"> <img src="images/check-circle.svg" alt="check-circle"> <span class="profit-list-item-text">Юридическая прозрачность (официальный договор)</span> </div>
                 <div class="profit-list-item-center-row">
-                    <div class="profit-list-item visible"> <img src="assets/theme/public/check-circle.svg" alt="check-circle">
+                    <div class="profit-list-item visible"> <img src="images/check-circle.svg" alt="check-circle">
                         <span class="profit-list-item-text"> Конфиденциальность <br> и безопасность</span> </div>
-                    <div class="profit-list-item-circle"> <span class="profit-list-item-circle-top">4,7</span> <img src="assets/theme/public/frame-star.svg" alt="check-circle"> <span class="profit-list-item-circle-bottom">средняя оценка наших клиентов</span> </div>
-                    <div class="profit-list-item visible"> <img src="assets/theme/public/check-circle.svg" alt="check-circle">
+                    <div class="profit-list-item-circle"> <span class="profit-list-item-circle-top">4,7</span> <img src="images/frame-star.svg" alt="check-circle"> <span class="profit-list-item-circle-bottom">средняя оценка наших клиентов</span> </div>
+                    <div class="profit-list-item visible"> <img src="images/check-circle.svg" alt="check-circle">
                         <span class="profit-list-item-text">Работаем по всему <br> миру</span> </div>
                 </div>
-                <div class="profit-list-item visible"> <img src="assets/theme/public/check-circle.svg" alt="check-circle"> <span class="profit-list-item-text">Опытные юристы с международной практикой</span> </div>
+                <div class="profit-list-item visible"> <img src="images/check-circle.svg" alt="check-circle"> <span class="profit-list-item-text">Опытные юристы с международной практикой</span> </div>
             </div>
         </div>
     </div>
@@ -288,7 +288,7 @@ writeLog('NEW USER CLIKC. PIXEL: ' . $pxCookie . ' CLICK ID: ' . $fbclid);
         <div class="wrapper">
             <div class="leave-request-block">
                 <div class="leave-request-logo"></div> <span class="leave-request-title">Успешно вернули деньги сотням
-                    клиентов – вернём и вам!</span> <img src="assets/theme/public/line.svg" alt="line"> <span class="leave-request-description">Оставляйте заявку прямо сейчас! </span> <button class="who-we-block-left-button">Оставить заявку</button>
+                    клиентов – вернём и вам!</span> <img src="images/line.svg" alt="line"> <span class="leave-request-description">Оставляйте заявку прямо сейчас! </span> <button class="who-we-block-left-button">Оставить заявку</button>
             </div>
         </div>
     </div>
@@ -303,7 +303,7 @@ writeLog('NEW USER CLIKC. PIXEL: ' . $pxCookie . ' CLICK ID: ' . $fbclid);
                 <div class="swiper reviews-swiper swiper-initialized swiper-horizontal swiper-backface-hidden">
                     <div class="swiper-wrapper" id="swiper-wrapper-ac177cf285734f24" aria-live="polite">
                         <div class="swiper-slide review-card swiper-slide-active" style="width: 420px; margin-right: 20px;" role="group" aria-label="1 / 6">
-                            <div style="background-image: url(assets/theme/public/comment3.svg);" class="comment-image">
+                            <div style="background-image: url(images/comment3.svg);" class="comment-image">
                             </div>
                             <div class="comment-text-container"> <a class="comment-link" href="#" onclick="document.location.hash='';return false;"></a> <span class="comment-name">Ксения</span> <span class="comment-age">26 лет</span> <span class="comment-sum">Вернули более 60 000$</span> <span class="comment-sum">Онлайн-Казино</span> <span class="comment-text">Искренне верила
                                     в шанс выиграть крупную сумму и решить все свои финансовые проблемы. Онлайн- казино
@@ -315,7 +315,7 @@ writeLog('NEW USER CLIKC. PIXEL: ' . $pxCookie . ' CLICK ID: ' . $fbclid);
                             </div>
                         </div>
                         <div class="swiper-slide review-card swiper-slide-next" style="width: 420px; margin-right: 20px;" role="group" aria-label="2 / 6">
-                            <div style="background-image: url(assets/theme/public/comment1.svg);" class="comment-image">
+                            <div style="background-image: url(images/comment1.svg);" class="comment-image">
                             </div>
                             <div class="comment-text-container"> <a class="comment-link" href="#" onclick="document.location.hash='';return false;"></a> <span class="comment-name">виктория</span> <span class="comment-age">28 лет</span> <span class="comment-sum">Вернули 15 000$</span> <span class="comment-sum">Брокер</span>
                                 <span class="comment-text">Всё началось с небольшого вложения в размере 250 долларов.
@@ -327,7 +327,7 @@ writeLog('NEW USER CLIKC. PIXEL: ' . $pxCookie . ' CLICK ID: ' . $fbclid);
                             </div>
                         </div>
                         <div class="swiper-slide review-card" style="width: 420px; margin-right: 20px;" role="group" aria-label="3 / 6">
-                            <div style="background-image: url(assets/theme/public/comment2.svg);" class="comment-image">
+                            <div style="background-image: url(images/comment2.svg);" class="comment-image">
                             </div>
                             <div class="comment-text-container"> <a class="comment-link" href="#" onclick="document.location.hash='';return false;"></a> <span class="comment-name">лилия</span> <span class="comment-age">36 лет</span> <span class="comment-sum">Вернули 3 000$ + компенсацию</span> <span class="comment-sum">Брокер</span> <span class="comment-text">Даже не догадывалась,
                                     что это был обман, до тех пор пока Бот не перестал быть активным. Тут и пришло
@@ -339,7 +339,7 @@ writeLog('NEW USER CLIKC. PIXEL: ' . $pxCookie . ' CLICK ID: ' . $fbclid);
                             </div>
                         </div>
                         <div class="swiper-slide review-card" style="width: 420px; margin-right: 20px;" role="group" aria-label="4 / 6">
-                            <div style="background-image: url(assets/theme/public/comment4.svg);" class="comment-image">
+                            <div style="background-image: url(images/comment4.svg);" class="comment-image">
                             </div>
                             <div class="comment-text-container"> <a class="comment-link" href="#" onclick="document.location.hash='';return false;"></a> <span class="comment-name">Артем</span> <span class="comment-age">24 года</span> <span class="comment-sum">Вернули 9 000€</span> <span class="comment-sum">Брокерская
                                     организация</span> <span class="comment-text">После регистрации Артему позвонили из
@@ -351,7 +351,7 @@ writeLog('NEW USER CLIKC. PIXEL: ' . $pxCookie . ' CLICK ID: ' . $fbclid);
                             </div>
                         </div>
                         <div class="swiper-slide review-card" style="width: 420px; margin-right: 20px;" role="group" aria-label="5 / 6">
-                            <div style="background-image: url(assets/theme/public/comment5.svg);" class="comment-image">
+                            <div style="background-image: url(images/comment5.svg);" class="comment-image">
                             </div>
                             <div class="comment-text-container"> <a class="comment-link" href="#" onclick="document.location.hash='';return false;"></a> <span class="comment-name">Александр</span> <span class="comment-age">41 год</span> <span class="comment-sum">Вернули 20 000$</span> <span class="comment-sum">Брокер</span>
                                 <span class="comment-text">После первого разговора с представителем брокерской компании,
@@ -381,7 +381,7 @@ writeLog('NEW USER CLIKC. PIXEL: ' . $pxCookie . ' CLICK ID: ' . $fbclid);
                 <div class="swiper reviews-swiper swiper-initialized swiper-horizontal swiper-backface-hidden">
                     <div class="swiper-wrapper" id="swiper-wrapper-0a8886010a8d62e9f" aria-live="polite">
                         <div class="swiper-slide review-card swiper-slide-active" style="width: 420px; margin-right: 20px;" role="group" aria-label="1 / 4">
-                            <div style="background-image: url(assets/theme/public/step1.svg);" class="stages4-of-work-image">
+                            <div style="background-image: url(images/step1.svg);" class="stages4-of-work-image">
                                 <div class="stages-of-work-step">01</div>
                             </div>
                             <div class="stages-of-work-container"> <span class="comment-name">бесплатная
@@ -390,7 +390,7 @@ writeLog('NEW USER CLIKC. PIXEL: ' . $pxCookie . ' CLICK ID: ' . $fbclid);
                                     дело с уже имеющимся в нашем рабочем кейсе.</span> </div>
                         </div>
                         <div class="swiper-slide review-card swiper-slide-next" style="width: 420px; margin-right: 20px;" role="group" aria-label="2 / 4">
-                            <div style="background-image: url(assets/theme/public/step2.svg);" class="stages4-of-work-image">
+                            <div style="background-image: url(images/step2.svg);" class="stages4-of-work-image">
                                 <div class="stages-of-work-step">02</div>
                             </div>
                             <div class="stages-of-work-container"> <span class="comment-name">Сбор данных и запуск
@@ -400,7 +400,7 @@ writeLog('NEW USER CLIKC. PIXEL: ' . $pxCookie . ' CLICK ID: ' . $fbclid);
                             </div>
                         </div>
                         <div class="swiper-slide review-card" style="width: 420px; margin-right: 20px;" role="group" aria-label="3 / 4">
-                            <div style="background-image: url(assets/theme/public/step3.svg);" class="stages4-of-work-image">
+                            <div style="background-image: url(images/step3.svg);" class="stages4-of-work-image">
                                 <div class="stages-of-work-step">03</div>
                             </div>
                             <div class="stages-of-work-container"> <span class="comment-name">Процедура возврата</span>
@@ -409,7 +409,7 @@ writeLog('NEW USER CLIKC. PIXEL: ' . $pxCookie . ' CLICK ID: ' . $fbclid);
                                     задействованием всевозможных инструментов и инстанций.</span> </div>
                         </div>
                         <div class="swiper-slide review-card" role="group" aria-label="4 / 4" style="width: 420px; margin-right: 20px;">
-                            <div style="background-image: url(assets/theme/public/step4.svg);" class="stages4-of-work-image">
+                            <div style="background-image: url(images/step4.svg);" class="stages4-of-work-image">
                                 <div class="stages-of-work-step">04</div>
                             </div>
                             <div class="stages-of-work-container"> <span class="comment-name">Результат</span> <span class="comment-text">Как правило, брокеры добровольно отдают не только депозит, но и
@@ -426,7 +426,7 @@ writeLog('NEW USER CLIKC. PIXEL: ' . $pxCookie . ' CLICK ID: ' . $fbclid);
     <div class="form-container">
         <div class="wrapper">
             <div class="form-block">
-                <div class="form-block-left"> <img src="assets/theme/public/form-block-image.svg" alt="form-image">
+                <div class="form-block-left"> <img src="images/form-block-image.svg" alt="form-image">
                 </div>
                 <div class="form-block-right">
                     <div class="form-with-js-handler">
@@ -559,11 +559,11 @@ writeLog('NEW USER CLIKC. PIXEL: ' . $pxCookie . ' CLICK ID: ' . $fbclid);
         <div class="wrapper">
             <div class="footer-block" id="contacts">
                 <div class="footer-block-left"> <span class="footer-block-left-title">Контакты</span>
-                    <div class="footer-block-left-address"> <img src="assets/theme/public/logo.svg" alt="logo"> <span class="footer-block-left-address-text"> Law firm TrendLaw <br> <span class="address-text-thin"> Oldenzaalsestraat 212, 7557GC Hengelo, Netherlands </span>
+                    <div class="footer-block-left-address"> <img src="images/logo.svg" alt="logo"> <span class="footer-block-left-address-text"> Law firm TrendLaw <br> <span class="address-text-thin"> Oldenzaalsestraat 212, 7557GC Hengelo, Netherlands </span>
                         </span> </div> <a href="tel:+31616479336" target="_blank" class="footer-block-left-phone-number">+31616479336</a>
-                    <div class="footer-block-left-messenger"> <a href="t.me/test.html" target="_blank" class="footer-block-left-messenger-button"><img src="assets/theme/public/telegram-icon.svg" alt="logo">Telegram</a> <a href="wa.me/+31616479336.html" target="_blank" class="footer-block-left-messenger-button"><img src="assets/theme/public/whatsapp.svg" alt="logo">WhatsApp</a> </div> <span class="footer-block-left-mail">support@trendlawyers.info</span>
+                    <div class="footer-block-left-messenger"> <a href="t.me/test.html" target="_blank" class="footer-block-left-messenger-button"><img src="images/telegram-icon.svg" alt="logo">Telegram</a> <a href="wa.me/+31616479336.html" target="_blank" class="footer-block-left-messenger-button"><img src="images/whatsapp.svg" alt="logo">WhatsApp</a> </div> <span class="footer-block-left-mail">support@trendlawyers.info</span>
                     <div class="privacy-policy-block"> <a href="#" onclick="document.location.hash='';return false;" class="privacy-policy-text">Пользовательское соглашение</a> <a href="#" onclick="document.location.hash='';return false;" class="privacy-policy-text">Политика конфиденциальности</a> </div>
-                    <div class="footer-block-left-bottom"> <img src="assets/theme/public/img.svg"> <span class="footer-block-left-bottom-text">TrendLaw, 2025</span> </div>
+                    <div class="footer-block-left-bottom"> <img src="images/img.svg"> <span class="footer-block-left-bottom-text">TrendLaw, 2025</span> </div>
                 </div>
                 <div class="footer-block-right"> <iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2464.772113212878!2d4.4969328!3d51.7385801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c431ac5fa8eb31%3A0x2c9b5b4de140fe10!2sWestdijk%2051%2C%203271%20LL%20Mijnsheerenland%2C%20Netherlands!5e0!3m2!1sen!2s!4v1620200000000!5m2!1sen!2s" width="760" height="349" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"> </iframe> </div>
             </div>
