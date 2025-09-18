@@ -317,43 +317,7 @@ writeLog('NEW USER CLIKC. PIXEL: ' . $pxCookie . ' CLICK ID: ' . $fbclid);
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide review-card">
-                            <div style="background-image: url(images/comment3.svg);" class="comment-image">
-                            </div>
-                            <div class="comment-text-container"> <a class="comment-link" href="#" onclick="document.location.hash='';return false;"></a> <span class="comment-name">Ксения</span> <span class="comment-age">26 лет</span> <span class="comment-sum">Вернули более 60 000$</span> <span class="comment-sum">Онлайн-Казино</span> <span class="comment-text">Искренне верила
-                                    в шанс выиграть крупную сумму и решить все свои финансовые проблемы. Онлайн- казино
-                                    привлекло ее...</span>
-                                <div class="comment-rate-block">
-                                    <div class="comment-rate"></div> <button class="comment-button">читать
-                                        полностью</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide review-card">
-                            <div style="background-image: url(images/comment3.svg);" class="comment-image">
-                            </div>
-                            <div class="comment-text-container"> <a class="comment-link" href="#" onclick="document.location.hash='';return false;"></a> <span class="comment-name">Ксения</span> <span class="comment-age">26 лет</span> <span class="comment-sum">Вернули более 60 000$</span> <span class="comment-sum">Онлайн-Казино</span> <span class="comment-text">Искренне верила
-                                    в шанс выиграть крупную сумму и решить все свои финансовые проблемы. Онлайн- казино
-                                    привлекло ее...</span>
-                                <div class="comment-rate-block">
-                                    <div class="comment-rate"></div> <button class="comment-button">читать
-                                        полностью</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide review-card">
-                            <div style="background-image: url(images/comment3.svg);" class="comment-image">
-                            </div>
-                            <div class="comment-text-container"> <a class="comment-link" href="#" onclick="document.location.hash='';return false;"></a> <span class="comment-name">Ксения</span> <span class="comment-age">26 лет</span> <span class="comment-sum">Вернули более 60 000$</span> <span class="comment-sum">Онлайн-Казино</span> <span class="comment-text">Искренне верила
-                                    в шанс выиграть крупную сумму и решить все свои финансовые проблемы. Онлайн- казино
-                                    привлекло ее...</span>
-                                <div class="comment-rate-block">
-                                    <div class="comment-rate"></div> <button class="comment-button">читать
-                                        полностью</button>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- <div class="swiper-slide review-card swiper-slide-next" style="width: 420px; margin-right: 20px;" role="group" aria-label="2 / 6">
+                        <div class="swiper-slide review-card swiper-slide-next" style="width: 420px; margin-right: 20px;" role="group" aria-label="2 / 6">
                             <div style="background-image: url(images/comment1.svg);" class="comment-image">
                             </div>
                             <div class="comment-text-container"> <a class="comment-link" href="#" onclick="document.location.hash='';return false;"></a> <span class="comment-name">виктория</span> <span class="comment-age">28 лет</span> <span class="comment-sum">Вернули 15 000$</span> <span class="comment-sum">Брокер</span>
@@ -406,7 +370,7 @@ writeLog('NEW USER CLIKC. PIXEL: ' . $pxCookie . ' CLICK ID: ' . $fbclid);
                                 <div class="comment-more-image"></div> <button class="comment-more-button">больше
                                     отзывов</button>
                             </div>
-                        </div> -->
+                        </div>
                     </div>
                     <div class="swiper-pagination"></div>
                     <!-- <div class="reviews-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal"><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 1" aria-current="true"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 4"></span></div>
