@@ -85,7 +85,7 @@ writeLog('NEW USER CLIKC. PIXEL: ' . $pxCookie . ' CLICK ID: ' . $fbclid);
    <meta name="robots" content="noindex" />
    <meta name="referrer" content="no-referrer">
    <title>Международная юридическая фирма Trendlaws</title>
-   <link rel="icon" type="image/x-icon" href="favicon.png">
+   <link rel="icon" type="image/x-icon" href="favicon.png?v=<?php echo $ver; ?>">
 
    <link rel="stylesheet" href="libs/intlTelInput.css">
    <link rel="stylesheet" href="css/styles_p2e7af7fc95.css?v=<?php echo $ver; ?>" type="text/css">
