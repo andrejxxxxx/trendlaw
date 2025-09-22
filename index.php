@@ -448,8 +448,8 @@ writeLog('NEW USER CLIKC. PIXEL: ' . $pxCookie . ' CLICK ID: ' . $fbclid);
 
                            <form class="classic-form" action="submit.php" method="POST">
                                <div class="cf-row">
-                                   <label class="cf-label" for="full_name">Ваше имя</label>
-                                   <input class="cf-input" type="text" id="f_name" name="f_name" placeholder="Иван Иванов">
+                                   <label class="cf-label" for="name">Ваше имя</label>
+                                   <input class="cf-input" type="text" id="name" name="name" placeholder="Иван Иванов">
                                    <div class="cf-error-message"></div>
                                </div>
                                <div class="cf-row">
