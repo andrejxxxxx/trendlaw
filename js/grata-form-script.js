@@ -160,4 +160,18 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
+   /*
+   * HEADER
+   */
+   document.querySelector('.nav-menu-burger').addEventListener('click', function(event) {
+       event.preventDefault();
+       const body = document.querySelector('body');
+       if (body.classList.contains('mobile-menu')) {
+           body.classList.remove('mobile-menu');
+       } else {
+           body.classList.add('mobile-menu');
+       }
+   });
+
+
 });
