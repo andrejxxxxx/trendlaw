@@ -34,14 +34,14 @@ document.addEventListener('DOMContentLoaded', function () {
          this.value = this.value.replace(/\D/g, ''); // Удаляем все, кроме цифр
       });
 
-      /*form.addEventListener('submit', function (event) {
+      form.addEventListener('submit', function (event) {
          event.preventDefault();
 
          // Get UI element
-         const errorMessages = form.querySelectorAll('.grata-error-message');
-         const phoneInput = form.querySelector('#user-phone');
-         const phoneError = form.querySelector('#grata-phone-error');
-         const sendButton = form.querySelector('.grata-button');
+         const errorMessages = form.querySelectorAll('.cf-error-message');
+         const phoneInput = form.querySelector('#phone');
+         const phoneError = form.querySelector('#cf-phone-error');
+         const sendButton = form.querySelector('.cf-button');
 
          messageBlock.classList.remove('show', 'error', 'success');
 
@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
          //Create Form Data
          const formData = new FormData(form);
-         formData.append('user_phone', number);
+         formData.append('phone', number);
 
          // Disable the send button
          sendButton.classList.add('disabled');
@@ -72,50 +72,80 @@ document.addEventListener('DOMContentLoaded', function () {
             method: 'POST',
             body: formData
          })
-            .then(response => response.json())
-            .then(data => {
+         .then(response => response.json())
+         .then(data => {
 
-               // Enable the send button again
-               sendButton.classList.remove('disabled');
+            // Enable the send button again
+            sendButton.classList.remove('disabled');
 
-               if (data.success) {
+            if (data.success) {
 
-                  // console.log(data);
-                  
+               console.log(data);
+               
+               form.reset(); // Clear the form
+
+               if( !data.silent ) {
+                 // Track FB Lead
+                 fbq('track', 'Lead'); 
+               }
+
+               // Replace content for page
+               const grata_content = document.querySelector('.page-content-wrapper');
+
+               if (grata_content) {
+
+                  // Insert custom HTML
+                  grata_content.innerHTML = `
+                     <section class="page-section section-thanks">
+                        <div class="wrapper">
+                           <h1 class="data-title">
+                              Спасибо, ваша заявка успешно отправлена
+                           </h1>
+                           <div class="data-subtitle">
+                              Наш менеджер свяжется с вами в ближайшее время
+                           </div>
+                        </div>
+                     </section>
+                  `;
+
+               }else {
+
                   // Redirected to the thank-you page
-                  window.location.href = '/thank-you';
+                  alert('Спасибо, ваша заявка успешно отправлена');
 
-                  form.reset(); // Clear the form
+               }
 
-               } else {
-                  // Error handling
-                  let hasErrors = false;
-                  for (const [field, error] of Object.entries(data.errors)) {
-                     const parentElement = form.querySelector(`#${field}`).closest('.data-block');
-                     if (parentElement) {
-                        const errorMessageElement = parentElement.querySelector('.grata-error-message');
-                        if (errorMessageElement) {
-                           errorMessageElement.textContent = error;
-                           hasErrors = true;
-                        }
+            } else {
+
+               // Error handling
+               let hasErrors = false;
+               for (const [field, error] of Object.entries(data.errors)) {
+                  const parentElement = form.querySelector(`#${field}`).closest('.data-block');
+                  if (parentElement) {
+                     const errorMessageElement = parentElement.querySelector('.grata-error-message');
+                     if (errorMessageElement) {
+                        errorMessageElement.textContent = error;
+                        hasErrors = true;
                      }
                   }
-                  if (hasErrors) {
-                     messageBlock.textContent = '';
-                  } else {
-                     messageBlock.textContent = 'Форма не была отправлена. Попробуйте позже';
-                     messageBlock.classList.add('show', 'error');
-                  }
                }
-            })
-            .catch(error => {
-               // Enable the send button again
-               sendButton.classList.remove('disabled');
+               if (hasErrors) {
+                  messageBlock.textContent = '';
+               } else {
+                  messageBlock.textContent = 'Форма не была отправлена. Попробуйте позже';
+                  messageBlock.classList.add('show', 'error');
+               }
+            }
+         })
+         .catch(error => {
+            // Enable the send button again
+            sendButton.classList.remove('disabled');
 
-               messageBlock.textContent = 'Форма не была отправлена. Попробуйте позже';
-               messageBlock.classList.add('show', 'error');
-            });
-      });*/
+            messageBlock.textContent = 'Форма не была отправлена. Попробуйте позже';
+            messageBlock.classList.add('show', 'error');
+         });
+            
+      });
    });
 
 
