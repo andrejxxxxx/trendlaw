@@ -1,6 +1,6 @@
 <?php
 
-$ver = '0.3';
+$ver = '0.4';
 
 if (isset($_GET['kreo'])) {
    $kreo = $_GET['kreo'];
@@ -438,41 +438,32 @@ writeLog('NEW USER CLIKC. PIXEL: ' . $pxCookie . ' CLICK ID: ' . $fbclid);
                                 <span class="form-text-block-title-yellow">гарантирует</span> строгое <span class="form-text-block-title-yellow">соблюдение</span> требований законов ЕС</span>
                             <span class="form-text-block-description">Вся работа продолжится только после подписания договора</span>
                             <span class="form-text-block-footer">Закажите бесплатную консультацию
-                                <span class="form-text-block-footer-small">(свободных мест - 7)</span></span>
+                             <span class="form-text-block-footer-small">(свободных мест - 7)</span></span>
                         </div>
 
-                        <form class="classic-form" action="thank-you/thankyou.php" method="post">
+                        <form class="classic-form" action="submit.php" method="POST">
                             <div class="cf-row">
                                 <label class="cf-label" for="full_name">Ваше имя</label>
                                 <input class="cf-input" type="text" id="f_name" name="f_name" placeholder="Иван Иванов">
-
+                                <div class="cf-error-message"></div>
                             </div>
                             <div class="cf-row">
                               <label class="cf-label" for="email">E-mail</label>
                               <input class="cf-input" type="email" id="email" name="email" placeholder="name@example.com">
-
+                              <div class="cf-error-message"></div>
                             </div>
                             <div class="cf-row">
-                              <label class="cf-label" for="phone_raw">Телефон</label>
-                              
-                              <input type="hidden" name="phone" data-not-remember="">
-                              <span id="invalidPhone" class="invalidPhone">Введите правильный номер телефона</span>
-                              <style>
-                                  .invalidPhone,
-                                  .invalidEmail {
-                                      display: none;
-                                      color: red;
-                                  }
-                              </style>
+                              <label class="cf-label" for="phone">Телефон</label>
+                              <input class="cf-input" type="text" id="phone" name="phone">
+                              <div class="cf-error-message" id="cf-phone-error"></div>
                               <!--?php $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?-->
-                              <input type="hidden" name="site" value="<?php echo $actual_link ?>">
-                              <input type="hidden" name="pixel" value="<?php echo $_GET['pixel'] ?>">
                             </div>
                             <div class="cf-actions">
                                 <button type="submit" id="btn" class="title-block-button">Оставить заявку</button>
                                 <span class="cf-note">Нажимая кнопку, вы отправляете заявку на консультацию.</span>
+                                <div class="cf-form-message"></div>
                             </div>
-                        <input type="hidden" name="utm_creative" value="img"><input type="hidden" name="ad_id" value="{{ad.id}}"><input type="hidden" name="pixel" value="1"><input type="hidden" name="_token" value="uuid_26debdhmh5c_26debdhmh5c68cbc526a40238.67733796"><input type="hidden" name="_subid" value="26debdhmh5c"><input type="hidden" name="_token" value="uuid_26debdhmh5c_26debdhmh5c68cbc526a40238.67733796"></form>
+                         </form>
                     </div>
                 </div>
             </div>

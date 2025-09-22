@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
 
-   const forms = document.querySelectorAll('.grata-form');
+   const forms = document.querySelectorAll('.classic-form');
 
    // Function to get parameter value from URL
    function getQueryParameter(name) {
@@ -9,8 +9,8 @@ document.addEventListener('DOMContentLoaded', function () {
    }
 
    forms.forEach(function (form) {
-      const messageBlock = form.querySelector('.grata-form-message');
-      const inputNumber = form.querySelector("#user-phone");
+      const messageBlock = form.querySelector('.cf-form-message');
+      const inputNumber = form.querySelector("#phone");
 
       //Phone number mask
       let iti;
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function () {
          this.value = this.value.replace(/\D/g, ''); // Удаляем все, кроме цифр
       });
 
-      form.addEventListener('submit', function (event) {
+      /*form.addEventListener('submit', function (event) {
          event.preventDefault();
 
          // Get UI element
@@ -115,7 +115,7 @@ document.addEventListener('DOMContentLoaded', function () {
                messageBlock.textContent = 'Форма не была отправлена. Попробуйте позже';
                messageBlock.classList.add('show', 'error');
             });
-      });
+      });*/
    });
 
 
