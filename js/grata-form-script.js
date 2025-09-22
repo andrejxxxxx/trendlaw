@@ -124,9 +124,10 @@ document.addEventListener('DOMContentLoaded', function () {
                // Error handling
                let hasErrors = false;
                for (const [field, error] of Object.entries(data.errors)) {
-                  const parentElement = form.querySelector(`#${field}`).closest('.data-block');
+                  console.log(`#${field}`);
+                  const parentElement = form.querySelector(`#${field}`).closest('.cf-row');
                   if (parentElement) {
-                     const errorMessageElement = parentElement.querySelector('.grata-error-message');
+                     const errorMessageElement = parentElement.querySelector('.cf-error-message');
                      if (errorMessageElement) {
                         errorMessageElement.textContent = error;
                         hasErrors = true;
@@ -144,7 +145,7 @@ document.addEventListener('DOMContentLoaded', function () {
          .catch(error => {
 
             console.log(error);
-            
+
             // Enable the send button again
             sendButton.classList.remove('disabled');
 
