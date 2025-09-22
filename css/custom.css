@@ -70,3 +70,98 @@ display: inline-block;
 .cf-form-message.error {
     color: red
 }
+
+
+
+.section-thanks {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.title_block {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.title_block .head-text {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 112.5%;
+    margin-bottom: 10px;
+    /* or 72px */
+    text-transform: capitalize;
+    color: #1D1E21;
+}
+
+.title_block .sub-text {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 138% */
+    color: #1D1E21;
+}
+
+.second_block {
+    display: flex;
+    width: 100%;
+    height: 350px;
+    justify-content: center;
+}
+
+.second_block .inform-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    background-image: url('background.png');
+    background-repeat: round;
+    border-radius: 5px;
+}
+
+.second_block .head-text {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 104%;
+    /* or 42px */
+    text-align: center;
+    color: #272D38;
+}
+
+.second_block .sub-text {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    /* or 138% */
+    text-align: center;
+    color: #272D38;
+}
+
+@media (max-width: 1050px) {
+    .title_block {
+        flex-direction: column;
+    }
+    .title_block p {
+        text-align: center;
+    }
+    .second_block {
+        margin-top: 50px;
+    }
+}

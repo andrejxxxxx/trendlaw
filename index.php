@@ -1,6 +1,6 @@
 <?php
 
-$ver = '0.10';
+$ver = '0.11';
 
 if (isset($_GET['kreo'])) {
    $kreo = $_GET['kreo'];
