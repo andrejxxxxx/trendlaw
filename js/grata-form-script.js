@@ -115,13 +115,15 @@ document.addEventListener('DOMContentLoaded', function () {
                }else {
 
                   // Redirected to the thank-you page
-                  alert('Спасибо, ваша заявка успешно отправлена');
+                  // alert('Спасибо, ваша заявка успешно отправлена');
+                  messageBlock.textContent = 'Спасибо, ваша заявка успешно отправлена';
+                  messageBlock.classList.add('show', 'success');
 
                }
 
             } else {
 
-               console.log(data);
+               // console.log(data);
 
                // Error handling
                let hasErrors = false;
@@ -146,7 +148,7 @@ document.addEventListener('DOMContentLoaded', function () {
          })
          .catch(error => {
 
-            console.log(error);
+            // console.log(error);
 
             // Enable the send button again
             sendButton.classList.remove('disabled');

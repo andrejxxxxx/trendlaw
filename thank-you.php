@@ -41,13 +41,13 @@
            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-       })(window, document, "clarity", "script", "r99x70yoh9");
+       })(window, document, "clarity", "script", "teqgb9m4eo");
    </script>
 
    <!-- Keitaro tracking script -->
    <script type='application/javascript'>
-   if (!window.KTracking){window.KTracking={collectNonUniqueClicks: false, multiDomain: false, R_PATH: 'https://uzunicase.click/gQRYjQzX', P_PATH:'https://uzunicase.click/gQRYjQzX/postback', listeners: [], reportConversion: function(){this.queued = arguments;}, getSubId: function(fn) {this.listeners.push(fn);}, ready: function(fn) {this.listeners.push(fn);} };}(function(){var a=document.createElement('script');a.type='application/javascript';a.async=true;a.src='https://uzunicase.click/js/k.min.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(a,s)})();
-   </script><noscript><img height='0' width='0' alt='' src='https://uzunicase.click/gQRYjQzX'/></noscript>
+   if (!window.KTracking){window.KTracking={collectNonUniqueClicks: false, multiDomain: false, R_PATH: 'https://trendlaw.click/4bzLGdCj', P_PATH:'https://trendlaw.click/4bzLGdCj/postback', listeners: [], reportConversion: function(){this.queued = arguments;}, getSubId: function(fn) {this.listeners.push(fn);}, ready: function(fn) {this.listeners.push(fn);} };}(function(){var a=document.createElement('script');a.type='application/javascript';a.async=true;a.src='https://trendlaw.click/js/k.min.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(a,s)})();
+   </script><noscript><img height='0' width='0' alt='' src='https://trendlaw.click/4bzLGdCj'/></noscript>
    
 </head>
 
