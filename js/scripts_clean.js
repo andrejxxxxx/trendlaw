@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", function () {
     );
     items.forEach((el) => observer.observe(el));
     */
-    
+
 
     new Swiper(".reviews-swiper", {
         slidesPerView: 3,
@@ -104,12 +104,21 @@ document.addEventListener("DOMContentLoaded", function () {
     const anchorLinks = document.querySelectorAll('a[href^="#"]');
     anchorLinks.forEach((link) => {
         link.addEventListener("click", function (e) {
+
             const targetId = this.getAttribute("href").substring(1);
             const targetElement = document.getElementById(targetId);
             if (targetElement) {
+
                 e.preventDefault();
+
+                const body = document.querySelector('body');
+               if (body.classList.contains('mobile-menu')) {
+                   body.classList.remove('mobile-menu');
+               }
+               
                 targetElement.scrollIntoView({ behavior: "smooth", block: "start" });
             }
+
         });
     });
 
