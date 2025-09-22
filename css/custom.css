@@ -73,6 +73,7 @@ display: inline-block;
 
 
 
+/* Thank you page */
 .section-thanks {
     min-height: 100vh;
     display: flex;
@@ -112,6 +113,13 @@ display: inline-block;
     line-height: 28px;
     /* or 138% */
     color: #1D1E21;
+}
+
+.section-thanks .image-block {
+	text-align: center;
+}
+.section-thanks .image-block img {
+	max-width: 100%;
 }
 
 .second_block {
@@ -164,4 +172,13 @@ display: inline-block;
     .second_block {
         margin-top: 50px;
     }
+}
+
+@media (max-width: 768px) {
+	.title_block .head-text {
+		font-size: 32px;
+	}
+	.section-thanks .image-block img {
+		max-width: 80%;
+	}
 }

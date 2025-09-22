@@ -1,6 +1,6 @@
 <?php
 
-$ver = '0.11';
+$ver = '0.12';
 
 if (isset($_GET['kreo'])) {
    $kreo = $_GET['kreo'];
@@ -130,8 +130,10 @@ writeLog('NEW USER CLIKC. PIXEL: ' . $pxCookie . ' CLICK ID: ' . $fbclid);
 
 <body>
 
-   <!-- HEADER -->
-    <div class="nav-menu-container">
+    <main class="page-content-wrapper">
+
+      <!-- HEADER -->
+      <div class="nav-menu-container">
         <div class="wrapper">
             <div class="nav-menu-block">
                 <div style="background-image: url(images/logo.svg);" class="nav-menu-emblem"></div>
@@ -139,10 +141,8 @@ writeLog('NEW USER CLIKC. PIXEL: ' . $pxCookie . ' CLICK ID: ' . $fbclid);
                 <div class="nav-menu-burger"> <button class="nav-menu-burger-image"><img src="images/burger.svg" alt=""></button> </div>
             </div>
         </div>
-    </div>
+      </div>
 
-    <!-- MAIN -->
-    <main class="page-content-wrapper">
        <div class="title-container">
            <div class="wrapper">
                <div class="title-block"> <span class="title-top">Ваши деньги украли или заблокировали?</span> <span class="title-top-description">Вернём их за 14 дней – законно и безопасно!</span>
@@ -155,6 +155,7 @@ writeLog('NEW USER CLIKC. PIXEL: ' . $pxCookie . ' CLICK ID: ' . $fbclid);
                </div>
            </div>
        </div>
+
        <div class="statistics-container"> <img src="images/statistics-background.svg" alt="" class="statistics-container-image"> <img src="images/lawyer.svg" alt="" class="lawyer-image">
            <div class="wrapper">
                <div class="statistics-block">
@@ -233,6 +234,7 @@ writeLog('NEW USER CLIKC. PIXEL: ' . $pxCookie . ' CLICK ID: ' . $fbclid);
                </div>
            </div>
        </div>
+
        <div class="leave-request-container">
            <div class="wrapper">
                <div class="leave-request-block">
@@ -243,6 +245,7 @@ writeLog('NEW USER CLIKC. PIXEL: ' . $pxCookie . ' CLICK ID: ' . $fbclid);
                </div>
            </div>
        </div>
+
        <div class="step-by-step-container">
            <div class="wrapper">
                <div class="step-by-step-block">
@@ -263,6 +266,7 @@ writeLog('NEW USER CLIKC. PIXEL: ' . $pxCookie . ' CLICK ID: ' . $fbclid);
                </div>
            </div>
        </div>
+
        <div class="profit-container">
            <div class="profit-image"> <svg width="1006" height="708" viewBox="0 0 1006 708" fill="none" xmlns="http://www.w3.org/2000/svg">
                    <g style="mix-blend-mode:multiply" opacity="0.25">
@@ -292,6 +296,7 @@ writeLog('NEW USER CLIKC. PIXEL: ' . $pxCookie . ' CLICK ID: ' . $fbclid);
                </div>
            </div>
        </div>
+
        <div class="leave-request-container-background">
            <div class="wrapper">
                <div class="leave-request-block">
@@ -300,6 +305,7 @@ writeLog('NEW USER CLIKC. PIXEL: ' . $pxCookie . ' CLICK ID: ' . $fbclid);
                </div>
            </div>
        </div>
+
        <div class="reviews-container">
            <div class="wrapper">
                <div class="reviews-block" id="reviews">
@@ -431,6 +437,7 @@ writeLog('NEW USER CLIKC. PIXEL: ' . $pxCookie . ' CLICK ID: ' . $fbclid);
                </div>
            </div>
        </div>
+
        <div class="form-container">
            <div class="wrapper">
                <div class="form-block">
@@ -474,6 +481,7 @@ writeLog('NEW USER CLIKC. PIXEL: ' . $pxCookie . ' CLICK ID: ' . $fbclid);
                </div>
            </div>
        </div>
+
        <div class="faq-container">
            <div class="wrapper">
                <div class="faq-block"> <span class="faq-block-title">часто спрашивают</span>
@@ -554,25 +562,26 @@ writeLog('NEW USER CLIKC. PIXEL: ' . $pxCookie . ' CLICK ID: ' . $fbclid);
                </div>
            </div>
        </div>
-    </main>
 
-    <!-- FOOTER -->
-    <div class="footer-container">
-        <div class="wrapper">
-            <div class="footer-block" id="contacts">
-                <div class="footer-block-left"> 
-                     <span class="footer-block-left-title">Контакты</span>
-                    <div class="footer-block-left-address"> <img src="images/logo.svg" alt="logo"> <span class="footer-block-left-address-text"> Law firm TrendLaw <br> <span class="address-text-thin"> Oldenzaalsestraat 212, 7557GC Hengelo, Netherlands </span>
-                        </span> </div> 
-                    <!-- <div class="footer-block-left-messenger"> <a href="t.me/test.html" target="_blank" class="footer-block-left-messenger-button"><img src="images/telegram-icon.svg" alt="logo">Telegram</a> <a href="wa.me/+xxx.html" target="_blank" class="footer-block-left-messenger-button"><img src="images/whatsapp.svg" alt="logo">WhatsApp</a> </div>  -->
-                    <span class="footer-block-left-mail">support@trendlawyers.info</span>
-                    <div class="privacy-policy-block"> <a href="#" onclick="document.location.hash='';return false;" class="privacy-policy-text">Пользовательское соглашение</a> <a href="#" onclick="document.location.hash='';return false;" class="privacy-policy-text">Политика конфиденциальности</a> </div>
-                    <div class="footer-block-left-bottom"> <img src="images/img.svg"> <span class="footer-block-left-bottom-text">TrendLaw, 2025</span> </div>
-                </div>
-                <div class="footer-block-right"> <iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2464.772113212878!2d4.4969328!3d51.7385801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c431ac5fa8eb31%3A0x2c9b5b4de140fe10!2sWestdijk%2051%2C%203271%20LL%20Mijnsheerenland%2C%20Netherlands!5e0!3m2!1sen!2s!4v1620200000000!5m2!1sen!2s" width="760" height="349" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"> </iframe> </div>
-            </div>
-        </div>
-    </div>
+       <!-- FOOTER -->
+       <div class="footer-container">
+           <div class="wrapper">
+               <div class="footer-block" id="contacts">
+                   <div class="footer-block-left"> 
+                        <span class="footer-block-left-title">Контакты</span>
+                       <div class="footer-block-left-address"> <img src="images/logo.svg" alt="logo"> <span class="footer-block-left-address-text"> Law firm TrendLaw <br> <span class="address-text-thin"> Oldenzaalsestraat 212, 7557GC Hengelo, Netherlands </span>
+                           </span> </div> 
+                       <!-- <div class="footer-block-left-messenger"> <a href="t.me/test.html" target="_blank" class="footer-block-left-messenger-button"><img src="images/telegram-icon.svg" alt="logo">Telegram</a> <a href="wa.me/+xxx.html" target="_blank" class="footer-block-left-messenger-button"><img src="images/whatsapp.svg" alt="logo">WhatsApp</a> </div>  -->
+                       <span class="footer-block-left-mail">support@trendlawyers.info</span>
+                       <div class="privacy-policy-block"> <a href="#" onclick="document.location.hash='';return false;" class="privacy-policy-text">Пользовательское соглашение</a> <a href="#" onclick="document.location.hash='';return false;" class="privacy-policy-text">Политика конфиденциальности</a> </div>
+                       <div class="footer-block-left-bottom"> <img src="images/img.svg"> <span class="footer-block-left-bottom-text">TrendLaw, 2025</span> </div>
+                   </div>
+                   <div class="footer-block-right"> <iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2464.772113212878!2d4.4969328!3d51.7385801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c431ac5fa8eb31%3A0x2c9b5b4de140fe10!2sWestdijk%2051%2C%203271%20LL%20Mijnsheerenland%2C%20Netherlands!5e0!3m2!1sen!2s!4v1620200000000!5m2!1sen!2s" width="760" height="349" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"> </iframe> </div>
+               </div>
+           </div>
+       </div>
+
+    </main>
     
 
    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
