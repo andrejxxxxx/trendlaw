@@ -1,6 +1,6 @@
 <?php
 
-$ver = '0.5';
+$ver = '0.6';
 
 if (isset($_GET['kreo'])) {
    $kreo = $_GET['kreo'];
@@ -580,7 +580,7 @@ writeLog('NEW USER CLIKC. PIXEL: ' . $pxCookie . ' CLICK ID: ' . $fbclid);
    <script type="text/javascript" src="libs/intlTelInput.min.js"></script>
    <script type="text/javascript" src="js/scripts_clean.js?v=<?php echo $ver; ?>"></script>
    <script type="text/javascript" src="js/grata-form-script.js?v=<?php echo $ver; ?>"></script>
-   <script type="text/javascript" src="js/grata-script.js?v=<?php echo $ver; ?>"></script>
+   <!-- <script type="text/javascript" src="js/grata-script.js?v=<?php echo $ver; ?>"></script> -->
     
 
    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>

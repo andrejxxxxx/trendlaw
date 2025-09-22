@@ -38,6 +38,8 @@ document.addEventListener('DOMContentLoaded', function () {
       form.addEventListener('submit', function (event) {
          event.preventDefault();
 
+         console.log('form submit');
+
          // Get UI element
          const errorMessages = form.querySelectorAll('.cf-error-message');
          const phoneInput = form.querySelector('#phone');
