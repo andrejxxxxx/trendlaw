@@ -1,6 +1,6 @@
 <?php
 
-$ver = '0.6';
+$ver = '0.7';
 
 if (isset($_GET['kreo'])) {
    $kreo = $_GET['kreo'];
@@ -464,7 +464,7 @@ writeLog('NEW USER CLIKC. PIXEL: ' . $pxCookie . ' CLICK ID: ' . $fbclid);
                                  <!--?php $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?-->
                                </div>
                                <div class="cf-actions">
-                                   <button type="submit" id="btn" class="title-block-button cf-button">Оставить заявку</button>
+                                   <button type="submit" id="btn" class="cf-submit-button cf-button">Оставить заявку</button>
                                    <span class="cf-note">Нажимая кнопку, вы отправляете заявку на консультацию.</span>
                                    <div class="cf-form-message"></div>
                                </div>
