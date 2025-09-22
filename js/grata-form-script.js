@@ -99,14 +99,14 @@ document.addEventListener('DOMContentLoaded', function () {
                   // Insert custom HTML
                   grata_content.innerHTML = `
                      <section class="page-section section-thanks">
-                        <img class="shadow" src="/images/shadow.png">
+                        <img class="shadow" src="images/shadow.png">
                         <div class="title_block">
                            <div class="text-block">
                               <p class="head-text">СПАСИБО ЗА <br> ВАШУ ЗАЯВКУ!</p>
                               <p class="sub-text">Наш менеджер свяжется с Вами по указанным <br> контактным данным в ближайшее время!</p>
                            </div>
                            <div class="image-block">
-                              <img src="/images/rocket.png">
+                              <img src="images/rocket.png">
                            </div>
                         </div>
                      </section>

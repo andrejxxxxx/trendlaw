@@ -73,7 +73,9 @@ display: inline-block;
 
 
 
-/* Thank you page */
+/* 
+* Thank you page 
+*/
 .section-thanks {
     min-height: 100vh;
     display: flex;
