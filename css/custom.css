@@ -50,3 +50,23 @@ display: inline-block;
     border-radius: 10px;
     display: inline-block;
 }
+.cf-error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.cf-form-message {
+    margin-top: 10px;
+    text-align: center;
+    display: none;
+    margin-top: 10px;
+}
+.cf-form-message.show {
+    display: block;
+}
+.cf-form-message.success {
+    color: green
+}
+.cf-form-message.error {
+    color: red
+}

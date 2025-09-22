@@ -1,7 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
 
    const forms = document.querySelectorAll('.classic-form');
-   console.log(forms);
 
    // Function to get parameter value from URL
    function getQueryParameter(name) {
@@ -37,8 +36,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
       form.addEventListener('submit', function (event) {
          event.preventDefault();
-
-         console.log('form submit');
 
          // Get UI element
          const errorMessages = form.querySelectorAll('.cf-error-message');
