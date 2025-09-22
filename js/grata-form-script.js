@@ -142,6 +142,9 @@ document.addEventListener('DOMContentLoaded', function () {
             }
          })
          .catch(error => {
+
+            console.log(error);
+            
             // Enable the send button again
             sendButton.classList.remove('disabled');
 
