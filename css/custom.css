@@ -53,7 +53,7 @@ display: inline-block;
 .cf-error-message {
     color: red;
     font-size: 14px;
-    margin-top: 10px;
+/*    margin-top: 10px;*/
 }
 .cf-form-message {
     margin-top: 10px;

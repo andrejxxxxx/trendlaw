@@ -75,6 +75,8 @@ document.addEventListener('DOMContentLoaded', function () {
          .then(response => response.json())
          .then(data => {
 
+            console.log(data);
+
             // Enable the send button again
             sendButton.classList.remove('disabled');
 
@@ -116,6 +118,8 @@ document.addEventListener('DOMContentLoaded', function () {
                }
 
             } else {
+
+               console.log(data);
 
                // Error handling
                let hasErrors = false;
