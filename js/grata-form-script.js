@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
 
    const forms = document.querySelectorAll('.classic-form');
+   console.log(forms);
 
    // Function to get parameter value from URL
    function getQueryParameter(name) {
@@ -144,7 +145,7 @@ document.addEventListener('DOMContentLoaded', function () {
             messageBlock.textContent = 'Форма не была отправлена. Попробуйте позже';
             messageBlock.classList.add('show', 'error');
          });
-            
+
       });
    });
 
